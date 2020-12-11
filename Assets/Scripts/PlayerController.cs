@@ -60,7 +60,12 @@ public class PlayerController : MonoBehaviour
 		body.MovePosition(body.position + movement * moveSpeed * Time.fixedDeltaTime);
 	}
 
-	void TakeDamage(int damage)
+	private void changeItem(Item i)
+	{
+
+	}
+		
+	private void TakeDamage(int damage)
 	{
 		currentHealth -= damage;
 		healthBar.SetHealth(currentHealth);
