@@ -9,6 +9,8 @@ namespace CaptainSly.ItemSystem
 		// Amount of Slots
 		// Type of Gem
 
+		int slotAmount { get; set; }
+		ISGemType GemType { get; set; }
 
 
 	}
